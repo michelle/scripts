@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "bulk_send_emails.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "handlebars": "~1.0.12",
+    "nodemailer": "~0.5.2"
+  }
+}
