@@ -68,10 +68,10 @@ for (var i = 0, ii = info.length; i < ii; i += 1) {
         console.log(error);
       } else {
         console.log('Successfully sent email to ' + email);
-        pending -= 1;
-        if (pending === 0) {
-          process.exit();
-        }
+      }
+      pending -= 1;
+      if (pending === 0) {
+        process.exit();
       }
     });
   })(rec.email)
